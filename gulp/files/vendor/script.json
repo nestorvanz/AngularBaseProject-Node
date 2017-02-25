@@ -1,0 +1,13 @@
+{
+  "src":  [
+    "./../vendor/jquery/dist/jquery.min.js",
+    "./../vendor/semantic/dist/semantic.min.js",
+    "./../vendor/angular/angular.min.js",
+    "./../vendor/lodash/dist/lodash.min.js",
+    "./../vendor/restangular/dist/restangular.min.js",
+    "./../vendor/angular-ui-router/release/angular-ui-router.min.js",
+    "./../vendor/oclazyload/dist/ocLazyLoad.min.js"
+  ],
+  "dest": "/js/",
+  "name": "vendor.js"
+}

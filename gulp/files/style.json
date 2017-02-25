@@ -1,0 +1,8 @@
+{
+  "src":  [
+    "./../src/css/layout.css",
+    "./../src/css/classes.css"
+  ],
+  "dest": "/css/",
+  "name": "style.css"
+}

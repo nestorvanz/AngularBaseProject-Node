@@ -1,0 +1,6 @@
+[
+  "./../src/js/factories/pipeline.factory.js",
+  "./../src/js/apps/config.app.js",
+  "./../src/js/apps/main.app.js",
+  "./../src/modules/**/*.js"
+]

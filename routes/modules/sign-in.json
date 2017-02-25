@@ -1,0 +1,4 @@
+[
+  { "route": "/sign-in", "file": "/modules/sign_in/view.html", "public": true },
+  { "route": "/js/controllers/sign-in.js", "file": "/modules/sign_in/controller.js", "public": true }
+]

@@ -1,0 +1,17 @@
+<div ng-controller="personasFormController as ctrl" class="max w600 margin auto">
+
+  <form action="" class="ui form" ng-submit="ctrl.submit()">
+    <div class="field">
+      <label for="">Titulo</label>
+      <input type="text" ng-model="ctrl.publicacion.title">
+    </div>
+    <div class="field">
+      <textarea ng-model="ctrl.publicacion.body" placeholder="Qué nos quieres contar?"></textarea>
+    </div>
+    <div class="field" align="right">
+      <a href="#/publicaciones/list" class="ui button">Cancelar</a>
+      <button class="ui positive button">Publicar</button>
+    </div>
+  </form>
+
+</div>

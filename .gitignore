@@ -1,0 +1,10 @@
+/dist/
+/node_modules/
+/vendor/
+
+/config/production.json
+
+/src/js/*.js
+
+/src/css/vendor.css
+/src/css/style.css

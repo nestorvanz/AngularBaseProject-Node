@@ -1,0 +1,28 @@
+{
+  "name": "angular-base-project_node",
+  "version": "0.1.0",
+  "description": "Angular Base Project with Node",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Angular",
+    "Semantic-UI"
+  ],
+  "author": "Nestor Vanz <vanz.mailwork@gmail.com>",
+  "license": "ISC",
+  "scripts": {
+    "start": "npm install && bower install"
+  },
+  "dependencies": {
+    "client-sessions": "^0.7.0",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.14.1",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssmin": "^0.1.7",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-uglify": "^2.0.1"
+  }
+}
