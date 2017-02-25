@@ -1,0 +1,4 @@
+[
+  { "route": "/css/vendor.css", "file": "/css/vendor.css", "public": true },
+  { "route": "/css/style.css", "file": "/css/style.css", "public": true }
+]

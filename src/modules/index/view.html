@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html ng-app="app.core">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <title>Titulo</title>
+
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body ng-controller="appController as app">
+    <header>
+      <div class="vertical align">
+        <div class="middle">
+        </div>
+        <div class="middle" align="right">
+          <div class="ui secondary menu">
+            <div class="right menu">
+              <a class="item" href="#/tareas/list">Tareas</a>
+              <a class="item" href="#/publicaciones/list">Publicaciones</a>
+              <div class="item" href="#/productos">
+                <button class="ui tiny red button" ng-click="app.signOut()">Salir</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <ui-view></ui-view>
+    </main>
+  </body>
+
+  <script src="js/vendor.js" charset="utf-8"></script>
+  <script src="js/core.js" charset="utf-8"></script>
+  <script src="js/controllers/index.js" charset="utf-8"></script>
+</html>

@@ -1,0 +1,8 @@
+{
+  "src":  [
+    "./../src/js/config/sign-in.config.js",
+    "./../src/js/apps/sign-in.app.js"
+  ],
+  "dest": "/js/",
+  "name": "sign-in.js"
+}

@@ -1,0 +1,12 @@
+{
+  "css": [
+    "./../src/css/*.css",
+    "!./../src/css/style.css",
+    "!./../src/css/vendor.css"
+  ],
+  "js": [
+    "./../src/**/*.js",
+    "!./../src/js/script.js",
+    "!./../src/js/vendor.js"
+  ]
+}

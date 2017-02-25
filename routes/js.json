@@ -1,0 +1,5 @@
+[
+  { "route": "/js/vendor.js", "file": "/js/vendor.js", "public": true },
+  { "route": "/js/core.js", "file": "/js/core.js", "public": true },
+  { "route": "/js/sign-in.js", "file": "/js/sign-in.js", "public": true }
+]

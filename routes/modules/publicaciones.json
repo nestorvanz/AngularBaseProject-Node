@@ -1,0 +1,6 @@
+[
+  { "route": "/publicaciones/list", "file": "/modules/publicaciones/list.view.html", "public": true },
+  { "route": "/js/controllers/publicaciones/list.js", "file": "/modules/publicaciones/list.controller.js", "public": true },
+  { "route": "/publicaciones/form", "file": "/modules/publicaciones/form.view.html", "public": true },
+  { "route": "/js/controllers/publicaciones/form.js", "file": "/modules/publicaciones/form.controller.js", "public": true }
+]

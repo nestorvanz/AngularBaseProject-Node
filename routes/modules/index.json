@@ -1,0 +1,4 @@
+[
+  { "route": "/", "file": "/modules/index/view.html", "public": true },
+  { "route": "/js/controllers/index.js", "file": "/modules/index/controller.js", "public": true }
+]

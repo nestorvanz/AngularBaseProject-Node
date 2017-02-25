@@ -1,0 +1,7 @@
+{
+  "src":  [
+    "./../vendor/semantic/dist/semantic.min.css"
+  ],
+  "dest": "/css/",
+  "name": "vendor.css"
+}

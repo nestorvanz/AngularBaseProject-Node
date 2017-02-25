@@ -1,0 +1,11 @@
+{
+  "cookieName": "LaCarta",
+  "authService": {
+    "host": "localhost",
+    "port": 4000,
+    "path": "/auth",
+    "secretString": "a0bc50a02d518a1503037c86dc69a92a",
+    "signInView": "/modules/sign_in/view.html"
+  },
+  "port": 7000
+}

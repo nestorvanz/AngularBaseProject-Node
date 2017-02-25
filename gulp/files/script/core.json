@@ -1,0 +1,9 @@
+{
+  "src":  [
+    "./../src/js/factories/pipeline.factory.js",
+    "./../src/js/config/core.config.js",
+    "./../src/js/apps/core.app.js"
+  ],
+  "dest": "/js/",
+  "name": "core.js"
+}

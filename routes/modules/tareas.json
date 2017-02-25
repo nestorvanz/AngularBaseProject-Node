@@ -1,0 +1,6 @@
+[
+  { "route": "/tareas/list", "file": "/modules/tareas/list.view.html", "public": true },
+  { "route": "/js/controllers/tareas/list.js", "file": "/modules/tareas/list.controller.js", "public": true },
+  { "route": "/tareas/form", "file": "/modules/tareas/form.view.html", "public": true },
+  { "route": "/js/controllers/tareas/form.js", "file": "/modules/tareas/form.controller.js", "public": true }
+]

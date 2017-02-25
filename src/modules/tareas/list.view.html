@@ -1,0 +1,13 @@
+<div ng-controller="personasListController as ctrl" class="max w600 margin auto">
+
+  <div align="right">
+    <a href="#/tareas/form" class="ui button">Agregar tarea</a>
+  </div>
+  <div class="ui segment" ng-repeat="tarea in ctrl.tareas">
+    <h3>{{tarea.title}}</h3>
+    <div align="right">
+      <a href="#/tareas/form/{{tarea.id}}">Editar tarea</a>
+    </div>
+  </div>
+
+</div>

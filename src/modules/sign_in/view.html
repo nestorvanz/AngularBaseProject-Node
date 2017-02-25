@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html ng-app="app.signIn">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <title></title>
+
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body ng-controller="signInController as ctrl" class="app background">
+    <!-- <div class="app content"> -->
+      <main>
+        <div class="filter"></div>
+        <!-- <div class="ui basic horizontal segments"> -->
+        <div class="ui two columns stackable grid">
+          <!-- <div class="ui segment" style="max-width: 50% !important;"> -->
+          <div class="column">
+
+          </div>
+          <!-- <div class="ui segment"> -->
+          <div class="column">
+            <form class="ui form max w300 margin auto" ng-submit="ctrl.signIn()" novalidate>
+              <div class="field">
+                <label for="" class=" white font">Correo</label>
+                <input type="email" name="correo" ng-model="ctrl.usuario.correo" placeholder="ejemplo@correo.com">
+              </div>
+              <div class="field">
+                <label for="" class="white font">Contraseña</label>
+                <input type="text" ng-model="ctrl.usuario.contrasena" placeholder="No se la digas a nadie">
+              </div>
+              <div class="field" ng-if="ctrl.signInError">
+                <div class="ui negative message">
+                  La cuenta de correo electrónico o la contraseña no coindiciden con
+                  lo registrado en nuestras bases de datos.
+                </div>
+              </div>
+              <div class="field">
+                <button class="ui fluid yellow button">Ingresar</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </main>
+    <!-- </div> -->
+  </body>
+
+  <script src="js/vendor.js" charset="utf-8"></script>
+  <script src="js/sign-in.js" charset="utf-8"></script>
+  <script src="js/controllers/sign-in.js" charset="utf-8"></script>
+</html>
